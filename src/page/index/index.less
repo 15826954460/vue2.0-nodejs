@@ -1,0 +1,140 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@import '../../comment/commentMedia.less';
+
+@e1: #e1e1e1;
+@span_color: #80BD01;
+.index_wrapper {
+  background: @e1;
+  min-height:1600px;
+  .index_content {
+    .b-r(3px);
+    width: 100%;
+    margin:0 auto;
+    .pt(15px);
+    .flex;
+    .index_left {
+      flex: 1;
+      background: @default;
+      overflow: hidden;
+      white-space: nowrap;
+      .mb(40px);
+      .index_header {
+        background:@f6;
+        .pl(10px);
+        .index_nav {
+          line-height: 40px;
+          li {
+            .f14;
+            .lf;
+            margin: 0 10px;
+            span {
+              padding: 2px 4px;
+              .b-r(4px);
+              color: @span_color;
+              &:hover {
+                .cur;
+              }
+            }
+            .span_active {
+              background: @span_color;
+              color: @default;
+            }
+          }
+        }
+      }
+      .topic_content {
+        background: @default;
+        .f12;
+        li {
+          border-bottom: 1px solid @ddd;
+          line-height: 30px;
+          .pd(10px);
+          .flex;
+          .ait;
+          &:hover {
+            background: #f5f5f5;
+            .cur;
+          }
+          .author {
+            flex-shrink: 0;
+            width: 30px;
+            height: 30px;
+            img {
+              width: 100%;
+              .b-r(2px);
+            }
+          }
+          .count_wrapper {
+            width: 80px;
+            flex-shrink: 0;
+            .tc;
+            .reply_count {
+              color: #A478C0;
+            }
+            .visit_count {
+              color: #B4B4B4;
+            }
+          }
+          .topic_title {
+            flex: 1;
+            .inb;
+            overflow: hidden;
+            white-space: nowrap;
+            .top, .good, .ask {
+              .b-r(2px);
+              .mr(5px);
+              padding: 2px 5px;
+              white-space: nowrap
+            }
+            .top, .good {
+              background: @span_color;
+              color: @default;
+            }
+            .ask {
+              background: @ddd;
+              color: @black;
+            }
+            .title {
+              .inb;
+              .f14;
+              width: 85%;
+              .ellipsis;
+              &:hover {
+                text-decoration: underline;
+                .cur;
+              }
+            }
+            .ask_color {
+              color: @333;
+            }
+          }
+          .send_time {
+            .flex;
+            .ait;
+            flex-shrink: 0;
+            width: 80px;
+            .tr;
+            .img_wrapper {
+              .inb;
+              width: 18px;
+              height: 18px;
+              .br;
+              img {
+                //width:100%;
+              }
+            }
+            .time {
+              flex: 1;
+            }
+          }
+        }
+      }
+    }
+    .index_right {
+      width: 290px;
+      height: 200px;
+      .ml(15px);
+    }
+  }
+}

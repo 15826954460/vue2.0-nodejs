@@ -1,0 +1,183 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@import '../../comment/commentMedia.less';
+
+@e1: e1e1e1;
+@theme_color: #80BD01;
+@login_btn_color: #0088CC;
+@github_btn_color: #5BC0DE;
+.signin_wrapper {
+  background: @e1;
+  min-height: 100vh;
+  .signin_content {
+    .pt(15px);
+    margin: 0 auto;
+    width: 100%;
+    .flex;
+    .signin_content_left {
+      flex: 1;
+      .f14;
+      background: @default;
+      .b-r(3px);
+      .login_wrapper {
+        .pd(10px);
+        background: @default;
+        .pb(50px);
+        .login_box {
+          .warning_info {
+            background: #F2DEDE;
+            color: #B94A48;
+            .fw;
+            .pd(10px);
+            .b-r(3px);
+            .fa-remove {
+              .rf;
+              color: #D9CBCC;
+              &:hover {
+                .cur;
+              }
+            }
+          }
+          .git {
+            line-height: 40px;
+            .mt(50px);
+            .github_login {
+              color: @333;
+              .inb;
+              width: 160px;
+              .mr(20px);
+              .tr;
+            }
+            .register_new {
+              padding: 5px 10px;
+              transition: all .2s linear;
+              background: @github_btn_color;
+              color: @default;
+              .b-r(3px);
+              &:hover {
+                .cur;
+                background: #2F96B4;;
+              }
+            }
+          }
+          .other {
+            .inb;
+            color: @333;
+            .pt(30px);
+            .pb(15px);
+          }
+          .user {
+            line-height: 30px;
+            .label {
+              .b;
+              color: @333;
+              .mr(20px);
+            }
+            input[type] {
+              .b-r(3px);
+              border: 1px solid @ccc;
+              .pd(5px);
+              width: 280px;
+            }
+          }
+          .user_name {
+            .mb(15px);
+            .warning_user_name{
+              color:#B94A48;
+              .ml(5px);
+            }
+          }
+          .user_pwd {
+            .mb(30px);
+            .warning_pwd{
+              color:#B94A48;
+              .ml(5px);
+            }
+          }
+          .isShowLoginBox {
+            .mt(50px);
+          }
+          .btn_wrapper {
+            line-height: 40px;
+            .comment_style {
+              padding: 5px 10px;
+              color: @default;
+              .f14;
+              .b-r(3px);
+              transition: all .2s linear;
+            }
+            .login_register,
+            .login{
+              background: @login_btn_color;
+              &:hover {
+                background: #0055CC;
+                .cur;
+              }
+            }
+            .login_by_github {
+              background: @github_btn_color;
+              .mr(10px);
+              &:hover {
+                background: #2F96B4;
+                .cur;
+              }
+            }
+            .forget_pwd {
+              color: @999;
+              &:hover {
+                border-bottom: 1px solid @999;
+                .cur;
+              }
+            }
+          }
+          .relevance_old_account {
+            line-height: 40px;
+            padding: 5px 10px;
+            background: @login_btn_color;
+            color: @default;
+            .b-r(5px);
+            transition: all .2s linear;
+            &:hover {
+              background: #0055CC;
+              .cur;
+            }
+          }
+        }
+      }
+    }
+    .signin_content_right {
+      width: 290px;
+      .ml(15px);
+    }
+  }
+}
+
+@media screen and(max-width: 980px) {
+  #github_login {
+    .b;
+    text-align:left;
+  }
+}
+
+@media screen and(min-width: 981px) {
+  #login_wrapper {
+    .user {
+      .label {
+        .inb;
+        .tr;
+        width: 160px;
+      }
+    }
+    .btn_wrapper {
+      .pl(180px);
+    }
+  }
+
+  #other {
+    .ml(180px);
+  }
+
+  #relevance_old_account {
+    .ml(180px);
+  }
+}

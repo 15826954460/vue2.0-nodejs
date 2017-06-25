@@ -1,0 +1,238 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 100px sans-serif, 'PingFang SC', "microsoft yahei", Arial, Helvetica;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+.lf {
+  float: left;
+}
+.rf {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+div:after,
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+img {
+  vertical-align: middle;
+}
+.inb {
+  display: inline-block;
+}
+.b {
+  display: block;
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ic {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pc {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.fix {
+  position: fixed;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.fw {
+  font-weight: bold;
+}
+.cur {
+  cursor: pointer;
+}
+.br {
+  border: 1px solid red;
+}
+.td {
+  text-decoration: underline;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.ait {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.clamp {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f22 {
+  font-size: 22px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f30 {
+  font-size: 30px;
+}
+@media screen and (min-width: 1501px) {
+  #comment_media_wrapper {
+    width: 1400px;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1500px) {
+  #comment_media_wrapper {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1080px) {
+  #comment_media_wrapper {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 980px) {
+  #comment_media_right {
+    display: none;
+  }
+}
+.my_message_wrapper {
+  font-size: 12px;
+  background: #e1e1e1;
+  min-height: 100vh;
+}
+.my_message_wrapper .my_message_wrapper_content {
+  display: flex;
+  display: -webkit-flex;
+  margin: 0 auto;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left {
+  padding-top: 15px;
+  flex: 1;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment {
+  background: #fff;
+  margin-bottom: 15px;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment p,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment p {
+  padding: 10px;
+  line-height: 30px;
+  color: #333;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item {
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item .reply_author,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item .reply_author,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item .article_title,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item .article_title {
+  color: #009ADD;
+  font-size: 14px;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item .reply_author:hover,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item .reply_author:hover,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item .article_title:hover,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item .article_title:hover {
+  text-decoration: underline;
+  color: #053967;
+  cursor: pointer;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item .reply,
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item .reply {
+  font-size: 16px;
+  color: #333;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_title .info_comment .has_read_messages .item:not(:last-child),
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .info_comment .has_read_messages .item:not(:last-child) {
+  border: 1px solid #ddd;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_left .my_message_wrapper_left_content .old_info {
+  background: #f6f6f6;
+  border-radius: 3px 3px 0 0;
+  line-height: 40px;
+  padding-left: 10px;
+  color: #333;
+}
+.my_message_wrapper .my_message_wrapper_content .my_message_wrapper_right {
+  width: 290px;
+}

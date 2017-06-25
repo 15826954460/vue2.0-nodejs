@@ -1,0 +1,351 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 100px sans-serif, 'PingFang SC', "microsoft yahei", Arial, Helvetica;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+.lf {
+  float: left;
+}
+.rf {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+div:after,
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+img {
+  vertical-align: middle;
+}
+.inb {
+  display: inline-block;
+}
+.b {
+  display: block;
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ic {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pc {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.fix {
+  position: fixed;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.fw {
+  font-weight: bold;
+}
+.cur {
+  cursor: pointer;
+}
+.br {
+  border: 1px solid red;
+}
+.td {
+  text-decoration: underline;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.ait {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.clamp {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f22 {
+  font-size: 22px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f30 {
+  font-size: 30px;
+}
+@media screen and (min-width: 1501px) {
+  #comment_media_wrapper {
+    width: 1400px;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1500px) {
+  #comment_media_wrapper {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1080px) {
+  #comment_media_wrapper {
+    width: 960px;
+  }
+}
+@media screen and (max-width: 980px) {
+  #comment_media_right {
+    display: none;
+  }
+}
+.signin_wrapper {
+  background: e1e1e1;
+  min-height: 100vh;
+}
+.signin_wrapper .signin_content {
+  padding-top: 15px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+.signin_wrapper .signin_content .signin_content_left {
+  flex: 1;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper {
+  padding: 10px;
+  background: #fff;
+  padding-bottom: 50px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .warning_info {
+  background: #F2DEDE;
+  color: #B94A48;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .warning_info .fa-remove {
+  float: right;
+  color: #D9CBCC;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .warning_info .fa-remove:hover {
+  cursor: pointer;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .git {
+  line-height: 40px;
+  margin-top: 50px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .git .github_login {
+  color: #333;
+  display: inline-block;
+  width: 160px;
+  margin-right: 20px;
+  text-align: right;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .git .register_new {
+  padding: 5px 10px;
+  transition: all .2s linear;
+  background: #5BC0DE;
+  color: #fff;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .git .register_new:hover {
+  cursor: pointer;
+  background: #2F96B4;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .other {
+  display: inline-block;
+  color: #333;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user {
+  line-height: 30px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user .label {
+  display: block;
+  color: #333;
+  margin-right: 20px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user input[type] {
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 280px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user_name {
+  margin-bottom: 15px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user_name .warning_user_name {
+  color: #B94A48;
+  margin-left: 5px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user_pwd {
+  margin-bottom: 30px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .user_pwd .warning_pwd {
+  color: #B94A48;
+  margin-left: 5px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .isShowLoginBox {
+  margin-top: 50px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper {
+  line-height: 40px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .comment_style {
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  transition: all .2s linear;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .login_register,
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .login {
+  background: #0088CC;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .login_register:hover,
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .login:hover {
+  background: #0055CC;
+  cursor: pointer;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .login_by_github {
+  background: #5BC0DE;
+  margin-right: 10px;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .login_by_github:hover {
+  background: #2F96B4;
+  cursor: pointer;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .forget_pwd {
+  color: #999;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .btn_wrapper .forget_pwd:hover {
+  border-bottom: 1px solid #999;
+  cursor: pointer;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .relevance_old_account {
+  line-height: 40px;
+  padding: 5px 10px;
+  background: #0088CC;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  transition: all .2s linear;
+}
+.signin_wrapper .signin_content .signin_content_left .login_wrapper .login_box .relevance_old_account:hover {
+  background: #0055CC;
+  cursor: pointer;
+}
+.signin_wrapper .signin_content .signin_content_right {
+  width: 290px;
+  margin-left: 15px;
+}
+@media screen and (max-width: 980px) {
+  #github_login {
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 981px) {
+  #login_wrapper .user .label {
+    display: inline-block;
+    text-align: right;
+    width: 160px;
+  }
+  #login_wrapper .btn_wrapper {
+    padding-left: 180px;
+  }
+  #other {
+    margin-left: 180px;
+  }
+  #relevance_old_account {
+    margin-left: 180px;
+  }
+}

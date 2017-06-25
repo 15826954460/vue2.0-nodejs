@@ -1,0 +1,85 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@import '../../comment/commentMedia.less';
+
+@span_color: #80BD01;
+@e1: #e1e1e1;
+.update_topic_wrapper {
+  background: @e1;
+  .update_topic_content_wrapper {
+    margin: 0 auto;
+    .pt(15px);
+    .f12;
+    .flex;
+    .update_topic_content_left {
+      flex: 1;
+      .replay_wrapper {
+        background: @default;
+        .pl(10px);
+        .pr(10px);
+        .replay_type {
+          .pt(10px);
+          .pb(10px);
+          .change_mode {
+            .f14;
+            color: @333;
+            .mr(5px);
+          }
+          .select {
+            width: 200px;
+            .b-r(3px);
+            height: 30px;
+          }
+        }
+        .title_num {
+          .mb(10px);
+          .isShowTitleWarning{
+            .inb;
+            .pt(5px);
+            .pb(10px);
+            color:red;
+          }
+          input[type=text] {
+            line-height: 25px;
+            .pl(5px);
+            .b-r(3px);
+            border: 1px solid #ddd;
+            width: 100%;
+          }
+        }
+        .quill-editor {
+          .ql-toolbar.ql-snow {
+            border:none;
+          }
+          .ql-container.ql-snow{
+            border:none;
+            min-height:450px;
+            .ql-editor.ql-blank{
+            }
+          }
+        }
+        .sent_topic_box{
+          border-top:1px solid #ddd;
+          .pt(50px);
+          .pb(10px);
+          .sent_topic_btn{
+            color:@default;
+            .f14;
+            background:#0088CC;
+            padding:5px 10px;
+            .b-r(3px);
+            .inb;
+            transition: background .2s linear;
+            &:hover{
+              background:#0055CC;
+              .cur;
+            }
+          }
+        }
+      }
+    }
+    .update_topic_content_right {
+      width: 290px;
+    }
+  }
+}

@@ -1,0 +1,107 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@import '../../comment/commentMedia.less';
+
+@update_color: #0088CC;
+.setting_wrapper {
+  .f12;
+  .setting_wrapper_content {
+    .pt(15px);
+    .flex;
+    margin: 0 auto;
+    .setting_wrapper_content_left {
+      flex: 1;
+      .setting_wrapper_comment {
+        .mb(15px);
+        .title {
+          line-height: 40px;
+          background: @f6;
+          border-radius: 3px 3px 0 0;
+          .pl(10px);
+          .f14;
+        }
+        .setting_box {
+          padding: 40px 10px 40px 10px;
+          background: @default;
+          .comment_style {
+            line-height: 30px;
+            .mb(15px);
+            span {
+              .f14;
+              .b;
+              .mr(20px);
+              color: @333;
+            }
+            .user_signature {
+              vertical-align: top;
+            }
+            input, textarea {
+              width: 285px;
+              padding:6px 5px;
+              border: 1px solid @ddd;
+              .b-r(3px);
+              color: @999;
+            }
+            .text_user_name,
+            .text_user_email{
+              &:hover {
+                cursor:not-allowed;
+              }
+            }
+            p {
+              color: @333;
+              .pb(10px);
+              .f14;
+            }
+          }
+          .comment_update {
+            .pd(5px 10px);
+            color: @default;
+            .f16;
+            background: @update_color;
+            transition: background .2s linear;
+            .b-r(3px);
+            &:hover {
+              background: #0055CC;
+              .cur;
+            }
+          }
+        }
+        .erweima_box {
+          .pd(10px);
+          background: @default;
+          span, p {
+            .f14;
+            color: @333;
+            line-height: 30px;
+          }
+          span {
+            .inb;
+          }
+        }
+      }
+    }
+    .setting_wrapper_content_right {
+      width: 290px;
+    }
+  }
+}
+
+@media screen and (min-width: 981px) {
+  #setting_box,
+  #setting_wrapper_setting_box {
+   .comment_style{
+     span{
+       .tr;
+       .inb;
+       width: 160px;
+     }
+     p{
+       .pl(180px);
+     }
+   }
+    .comment_update{
+      .ml(180px);
+    }
+  }
+}

@@ -1,0 +1,66 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@import '../../comment/commentMedia.less';
+
+.my_message_wrapper {
+  .f12;
+  background: @e1;
+  min-height: 100vh;
+  .my_message_wrapper_content {
+    .flex;
+    margin: 0 auto;
+    .my_message_wrapper_left {
+      .pt(15px);
+      flex: 1;
+      .my_message_wrapper_left_title,
+      .my_message_wrapper_left_content {
+        .info_comment {
+          background: @default;
+          .mb(15px);
+          p {
+            .pd(10px);
+            line-height: 30px;
+            color:@333;
+          }
+          .has_read_messages{
+            .item{
+              .pd(10px);
+              .pb(10px);
+              .reply_author,
+              .article_title{
+                color:#009ADD;
+                .f14;
+                &:hover{
+                  text-decoration: underline;
+                  color:#053967;
+                  .cur;
+                }
+              }
+              .reply{
+                .f16;
+                color:@333;
+                .mr(5px);
+                .ml(5px);
+              }
+            }
+            .item:not(:last-child){
+              border:1px solid @ddd;
+            }
+          }
+        }
+      }
+      .my_message_wrapper_left_content {
+        .old_info {
+          background:@f6;
+          border-radius:3px 3px 0 0;
+          line-height:40px;
+          .pl(10px);
+          color:@333;
+        }
+      }
+    }
+    .my_message_wrapper_right {
+      width: 290px;
+    }
+  }
+}

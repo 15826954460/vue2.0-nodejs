@@ -1,0 +1,125 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@import '../../comment/commentMedia.less';
+
+@span_color: #80BD01;
+@e1: #e1e1e1;
+.user_wrapper {
+  background: @e1;
+  .f12;
+  .user_content_wrapper {
+    .pt(15px);
+    margin: 0 auto;
+    .flex;
+    width: 100%;
+    .user_content_wrapper_left {
+      flex: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      .b-r(3px);
+      .author_info {
+        background: @default;
+        .pd(10px);
+        .title {
+          img {
+            width: 40px;
+            .mr(10px);
+            .b-r(5px);
+          }
+        }
+        .score {
+          color: @333;
+          line-height: 30px;
+        }
+        .collection {
+          color: @999;
+        }
+        .relevance {
+          .pt(10px);
+          li {
+            line-height: 25px;
+            span {
+              .f16;
+              color: @999;
+            }
+            .fa-map-marker {
+              .rel;
+              right: -2px;
+            }
+          }
+        }
+        .login_time {
+          .f14;
+          color: @999;
+        }
+      }
+      .comment_style {
+        .mt(10px);
+        background: @default;
+        header.title{
+          color:@333;
+          line-height:40px;
+          background:@f6;
+          .pl(10px);
+        }
+        .list_wrapper {
+          .list {
+            .flex;
+            .ait;
+            .pd(10px);
+            border-bottom:1px solid #ddd;
+            .list_img {
+              flex-shrink: 0;
+              width: 30px;
+              height: 30px;
+              img {
+                width: 100%;
+                .b-r(2px);
+                .b-r(5px);
+              }
+            }
+            .list_content {
+              flex: 1;
+              overflow: hidden;
+              white-space: nowrap;
+              .ml(10px);
+              .ait;
+              p {
+                .inb;
+                width: 70px;
+                flex-shrink: 0;
+              }
+              .title {
+                .inb;
+                color: #0088CC;
+                .f16;
+                width: 80%;
+                .ellipsis;
+                &:hover {
+                  color: #005580;
+                  .cur;
+                  text-decoration: underline;
+                }
+              }
+            }
+            .last_reply_at {
+              .tc;
+              width: 60px;
+              flex-shrink: 0;
+            }
+          }
+          .look_more{
+            .pd(10px);
+            &:hover{
+              .cur;
+            }
+          }
+        }
+      }
+    }
+    .user_content_wrapper_right {
+      width: 290px;
+      .ml(15px);
+    }
+  }
+}

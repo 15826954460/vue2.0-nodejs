@@ -1,0 +1,50 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+
+.access_token_wrapper {
+  .warm_prompt {
+    .f14;
+    .tc;
+    .pt(80px);
+    color:#2F96B4;
+    margin:0 auto;
+    width:80%;
+  }
+  .access_token_content {
+    width: 350px;
+    margin: 0 auto;
+    font-size: 0;
+    .pt(70px);
+    .rel;
+    img {
+      width: 100%;
+      .mb(15px);
+    }
+    input {
+      width: 100%;
+      .pd(5px);
+      border: none;
+      background: @e1;
+      border-bottom: 1px solid @333;
+      outline: none;
+    }
+    .access_login {
+      .abs;
+      right: 3px;
+      bottom: 5px;
+      color: #0088CC;
+      .f14;
+      &:hover {
+        .cur;
+      }
+    }
+  }
+  .warning {
+    .f14;
+    color: red;
+    margin: 0 auto;
+    width: 350px;
+    .tc;
+    .pt(5px);
+  }
+}
