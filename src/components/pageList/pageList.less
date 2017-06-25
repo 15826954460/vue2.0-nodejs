@@ -1,0 +1,37 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@currentIndex:#80BD01;
+.page_list_wrapper{
+  .f12;
+  .pt(15px);
+  .pl(15px);
+  .pb(15px);
+  .page_list{
+    .inb;
+    border:1px solid #ddd;
+    .b-r(5px);
+    li:after{
+      content: "";
+      display: block;
+      clear: both;
+    }
+    li{
+      .lf;
+      .pl(10px);
+      .pr(10px);
+      height:30px;
+      line-height:30px;
+      .tc;
+      &:hover{
+        .cur;
+        background:#ddd;
+      }
+    }
+    li+li{
+      border-left:1px solid @ddd;
+    }
+    .currentIndex{
+        color:@currentIndex;
+    }
+  }
+}

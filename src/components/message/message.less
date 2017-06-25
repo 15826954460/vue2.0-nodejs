@@ -1,0 +1,198 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+
+@login_btn: #5BC0DE;
+@e1: #e1e1e1;
+@span_color: #80BD01;
+.message_box {
+  width: 100%;
+  .pb(100px);
+  .f12;
+  .about_login_register,
+  .advertising {
+    .pd(10px);
+    background: @default;
+    width: 100%;
+    .b-r(2px);
+    .mb(10px);
+  }
+  .no_people_answer,
+  .scoreboard,
+  .Friendship,
+  .erweima,
+  .about_wrapper,
+  .author_wrapper{
+    background: @default;
+    width: 100%;
+    .b-r(2px);
+    .mb(10px);
+    .title {
+      color: @black;
+      .pl(10px);
+      .ellipsis;
+      line-height: 40px;
+      background: @f6;
+      .f14;
+    }
+  }
+  .about_login_register {
+    header {
+      color: @black;
+      .f14;
+      .mb(5px);
+    }
+    p {
+      line-height: 40px;
+      .login {
+        color: @999;
+      }
+    }
+    .login_btn {
+      padding: 5px 10px;
+      background: @login_btn;
+      color: @default;
+      .b-r(4px);
+      .f14;
+    }
+    .login,.register,.login_btn{
+      &:hover{
+        .cur;
+      }
+    }
+  }
+  .author_info{
+    .pb(15px);
+    .author_img{
+      line-height:50px;
+      .pd(10px);
+      img{
+        height:50px;
+        .mr(10px);
+      }
+      .login_name{
+        .f16;
+      }
+    }
+    .visit_count{
+      .pl(10px);
+      color:@333;
+      line-height:20px;
+      .f16;
+    }
+  }
+  .advertising {
+    img {
+      width: 100%;
+      .mb(10px);
+    }
+  }
+  .no_people_answer {
+    .pb(20px);
+    .b-r(2px);
+    .no_answer_list {
+      li {
+        background: @default;
+        .pl(10px);
+        .pr(10px);
+        color: @999;
+        width: 100%;
+        line-height: 30px;
+        .ellipsis;
+      }
+    }
+  }
+  .scoreboard {
+    .pd();
+    .scoreboard_list {
+      .pt(15px);
+      .pb(15px);
+      li {
+        width:100%;
+        .flex;
+        line-height:20px;
+        color:@999;
+        .top_score {
+          flex:1;
+          .tc;
+        }
+        .user_name{
+          flex:3;
+        }
+      }
+    }
+  }
+  .Friendship{
+    .Friendship_list{
+      li{
+        width:100%;
+        .pl(10px);
+        img{
+          width:50%;
+          .mb(10px);
+        }
+      }
+    }
+  }
+  .erweima{
+    .pb(10px);
+    .cnode-app-download{
+      width:100%;
+      .tc;
+      .pt(10px);
+      img{
+        width:60%;
+      }
+    }
+    .code_address{
+      .tc;
+    }
+  }
+  .about_intro{
+    .pd(10px);
+    span{
+      line-height:30px;
+      .f14;
+      color:@333;
+    }
+    .do_list{
+      dt{
+        .f12;
+        line-height:30px;
+      }
+      dd{
+        line-height:25px;
+        .pl(10px);
+        i{
+          .inb;
+          width:3px;
+          height:3px;
+          background:@black;
+          .b-r(50%);
+          .mr(5px);
+          .rel;
+          top:-2px;
+        }
+      }
+    }
+  }
+  .release_topic_wrapper{
+    background:@default;
+    width: 100%;
+    .b-r(2px);
+    .mb(10px);
+    .pd(10px);
+    .release_topic{
+      padding: 5px 10px;
+      .f14;
+      .inb;
+      background:@span_color;
+      color:@default;
+      transition: background .2s linear;
+      .b-r(3px);
+      &:hover{
+        .cur;
+        background:#6BA44E;
+      }
+    }
+  }
+}

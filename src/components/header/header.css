@@ -1,0 +1,272 @@
+@charset "utf-8";
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 100px sans-serif, 'PingFang SC', "microsoft yahei", Arial, Helvetica;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+}
+.lf {
+  float: left;
+}
+.rf {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+a :hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+div:after,
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+img {
+  vertical-align: middle;
+}
+.inb {
+  display: inline-block;
+}
+.b {
+  display: block;
+}
+.vc {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ic {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pc {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.fix {
+  position: fixed;
+}
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.fw {
+  font-weight: bold;
+}
+.cur {
+  cursor: pointer;
+}
+.br {
+  border: 1px solid red;
+}
+.td {
+  text-decoration: underline;
+}
+.flex {
+  display: flex;
+  display: -webkit-flex;
+}
+.ait {
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.clamp {
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f22 {
+  font-size: 22px;
+}
+.f24 {
+  font-size: 24px;
+}
+.f26 {
+  font-size: 26px;
+}
+.f28 {
+  font-size: 28px;
+}
+.f30 {
+  font-size: 30px;
+}
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: #e1e1e1;
+}
+.head_nav {
+  width: 100%;
+  background: #444;
+  font-size: 0;
+}
+.head_nav .container {
+  margin: 0 auto;
+  background: #444;
+}
+.head_nav .container .logo_box {
+  display: inline-block;
+  line-height: 50px;
+  margin-right: 25px;
+}
+.head_nav .container .logo_box img {
+  width: 120px;
+}
+.head_nav .container .search_box {
+  font-size: 0;
+  width: 233px;
+  height: 26px;
+  background: #888;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  position: relative;
+}
+.head_nav .container .search_box .search {
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  transition: background .5s linear;
+  padding-left: 15px;
+}
+.head_nav .container .search_box .search:hover {
+  background: #fff;
+  cursor: pointer;
+}
+.head_nav .container .search_box .fa-search {
+  color: #5A5B5A;
+  font-size: 20px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+.head_nav .container .nav_list_box ul {
+  overflow: hidden;
+}
+.head_nav .container .nav_list_box ul li {
+  line-height: 50px;
+  float: left;
+  font-size: 14px;
+  color: #C7C7C7;
+  padding: 0 15px;
+  transition: color .3s linear;
+}
+.head_nav .container .nav_list_box ul li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.head_nav .container .nav_list_box ul .currentState {
+  color: #fff;
+}
+.content_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+@media screen and (min-width: 1501px) {
+  #container {
+    width: 1400px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  #container {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 980px) {
+  #nav_list_box {
+    float: right;
+  }
+}
+@media screen and (min-width: 440px) {
+  #search_box {
+    display: inline-block;
+    top: 12px;
+  }
+}
+@media screen and (min-width: 1501px) {
+  #content_wrapper {
+    width: 1400px;
+  }
+  #container {
+    width: 1400px;
+  }
+}
+@media screen and (min-width: 1081px) and (max-width: 1500px) {
+  #content_wrapper {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1080px) {
+  #content_wrapper {
+    width: 960px;
+  }
+}

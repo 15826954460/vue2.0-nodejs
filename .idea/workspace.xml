@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6e10145-5e39-4f97-add8-21dbedee7f3d" name="Default" comment="初始化的一些配置文件">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/comment.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/comment.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/commentMedia.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/commentMedia.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/reset.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/aside/aside.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/aside/aside.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/aside/aside.vue" />
@@ -230,7 +224,7 @@
       <workItem from="1498322640059" duration="1319000" />
       <workItem from="1498358014381" duration="1129000" />
       <workItem from="1498359322168" duration="13000" />
-      <workItem from="1498359589415" duration="10697000" />
+      <workItem from="1498359589415" duration="10884000" />
     </task>
     <task id="LOCAL-00001" summary="初始化的一些配置文件">
       <created>1498323388008</created>
@@ -281,11 +275,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498384028399</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1498384313344</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1498384313344</updated>
+    </task>
+    <task id="LOCAL-00009" summary="公用样式">
+      <created>1498384441607</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1498384441607</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13187000" />
+    <option name="totallyTimeSpent" value="13374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,9 +335,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="资源文件" />
     <MESSAGE value="初始化的一些配置文件" />
-    <MESSAGE value="init" />
     <MESSAGE value="路由模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="路由模块" />
+    <MESSAGE value="init" />
+    <MESSAGE value="公用样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="公用样式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

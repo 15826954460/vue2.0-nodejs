@@ -1,0 +1,27 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@e1: #e1e1e1;
+.back_to_top {
+  .fix;
+  right: 0;
+  top: 80%;
+  .f14;
+  width: 30px;
+  background: @f7;
+  z-index: 10;
+  .tc;
+  padding: 5px 5px;
+  color: @333;
+  line-height: 20px;
+  border-radius: 10px 0 0 10px;
+  transition: all .3s linear;
+  &:hover {
+    .cur;
+  }
+  opacity: 0;
+}
+@media screen and(max-width: 980px) {
+  #back_to_top {
+    background: @e1;
+  }
+}

@@ -1,0 +1,136 @@
+@import '../../comment/reset';
+@import '../../comment/comment';
+
+@navColor: #444;
+@search_box: #888;
+@fa-search: #5A5B5A;
+@C7: #C7C7C7;
+@e1: #e1e1e1;
+.app {
+  min-height: 100vh;
+  width: 100%;
+  background: @e1;
+}
+
+.head_nav {
+  width: 100%;
+  background: @navColor;
+  font-size: 0;
+  .container {
+    margin: 0 auto;
+    background: @navColor;
+    .logo_box {
+      .inb;
+      line-height: 50px;
+      .mr(25px);
+      img {
+        width: 120px;
+      }
+    }
+    .search_box {
+      font-size: 0;
+      width: 233px;
+      height: 26px;
+      background: @search_box;
+      .b-r(13px);
+      .rel;
+      .search {
+        border: none;
+        outline: none;
+        .abs;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        .b-r(13px);
+        transition: background .5s linear;
+        .pl(15px);
+        &:hover {
+          background: @default;
+          .cur;
+        }
+      }
+      .fa-search {
+        color: @fa-search;
+        font-size: 20px;
+        .abs;
+        top: 3px;
+        right: 10px;
+      }
+    }
+    .nav_list_box {
+      ul {
+        overflow: hidden;
+        li {
+          line-height: 50px;
+          .lf;
+          font-size: 14px;
+          color: @C7;
+          padding: 0 15px;
+          transition: color .3s linear;
+          &:hover {
+            color: @default;
+            .cur;
+          }
+        }
+        .currentState {
+          color: @default;
+        }
+      }
+    }
+  }
+}
+
+.content_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  .pt(15px);
+}
+
+@media screen and(min-width: 1501px) {
+  #container {
+    width: 1400px;
+  }
+}
+@media screen and(max-width: 1500px) {
+  #container {
+    width: 90%;
+  }
+}
+@media screen and(max-width: 980px) {
+  #container {
+    //width: 90%;
+  }
+}
+@media screen and(min-width: 980px) {
+  #nav_list_box {
+    .rf;
+  }
+}
+@media screen and(min-width: 440px) {
+  #search_box {
+    .inb;
+    top: 12px;
+  }
+}
+
+@media screen and(min-width: 1501px) {
+  #content_wrapper {
+    width: 1400px;
+  }
+  #container {
+    width: 1400px;
+  }
+}
+@media screen and(min-width: 1081px) and(max-width: 1500px) {
+  #content_wrapper {
+    width: 90%;
+  }
+}
+
+@media screen and(min-width: 981px) and(max-width: 1080px) {
+  #content_wrapper {
+    width: 960px;
+  }
+}

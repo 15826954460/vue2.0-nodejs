@@ -1,0 +1,20 @@
+@import '../../comment/reset.less';
+@import '../../comment/comment.less';
+@theme_color: #80BD01;
+.title_nav {
+  line-height: 40px;
+  .pl(10px);
+  background: @f6;
+  border-radius:3px 3px 0 0;
+  span {
+    color: @999;
+    .f14;
+  }
+  .index_page {
+    color: @theme_color;
+    &:hover {
+      border-bottom: 1px solid @theme_color;
+      .cur;
+    }
+  }
+}
