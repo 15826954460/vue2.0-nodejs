@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6e10145-5e39-4f97-add8-21dbedee7f3d" name="Default" comment="初始化的一些配置文件">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/nodejs.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/.idea/comment.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/comment.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/comment.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/commentMedia.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/commentMedia.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/comment/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/aside/aside.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/aside/aside.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/aside/aside.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/header.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/header/header.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/headerTitle/headerTitle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/headerTitle/headerTitle.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/headerTitle/headerTitle.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/message/message.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/message/message.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/message/message.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/pageList/pageList.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/pageList/pageList.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/pageList/pageList.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/accessToken/accessToken.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/accessToken/accessToken.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/accessToken/accessToken.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/createTopic/createTopic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/createTopic/createTopic.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/createTopic/createTopic.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/index/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/index/index.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/index/index.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/mymessage/mymessage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/mymessage/mymessage.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/mymessage/mymessage.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/setting/setting.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/setting/setting.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/setting/setting.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/signin/signin.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/signin/signin.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/signin/signin.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/topicDetail/article.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/topicDetail/article.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/topicDetail/article.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/updateTopic/updateTopic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/updateTopic/updateTopic.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/updateTopic/updateTopic.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user/user.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user/user.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/page/user/user.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/router/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/getters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/mutations.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="false" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodejs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="E:/eeeeeeeeelm" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="F:\nodejs\node_modules\eslint" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6e10145-5e39-4f97-add8-21dbedee7f3d" name="Default" comment="" />
+      <created>1498322397043</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498322397043</updated>
+      <workItem from="1498322400016" duration="29000" />
+      <workItem from="1498322640059" duration="1319000" />
+      <workItem from="1498358014381" duration="1129000" />
+      <workItem from="1498359322168" duration="13000" />
+      <workItem from="1498359589415" duration="9938000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化的一些配置文件">
+      <created>1498323388008</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498323388008</updated>
+    </task>
+    <task id="LOCAL-00002" summary="init">
+      <created>1498323508908</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1498323508908</updated>
+    </task>
+    <task id="LOCAL-00003" summary="资源文件">
+      <created>1498358652510</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1498358652510</updated>
+    </task>
+    <task id="LOCAL-00004" summary="初始化的一些配置文件">
+      <created>1498362129406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498362129406</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12428000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1748512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31639344" sideWeight="0.50595236" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31639344" sideWeight="0.4940476" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="资源文件" />
+    <MESSAGE value="初始化的一些配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化的一些配置文件" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-209">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
