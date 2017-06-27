@@ -21,19 +21,21 @@ new Vue({
 })
 /* 自定义一个全局过滤器(进行时间转换) */
 Vue.filter('formatTime', function (value) {
-  let time = new Date()
-  let date = time - Date.parse(value)
-  if (date / (12 * 30 * 24 * 60 * 60 * 1000) > 1) {
-    return Math.ceil(date / (12 * 30 * 24 * 60 * 60 * 1000)) + ' ' + '年前'
-  } else if (date / (30 * 24 * 60 * 60 * 1000) > 1) {
-    return parseInt(date / (30 * 24 * 60 * 60 * 1000)) + ' ' + '个月前'
-  } else if (date / (24 * 60 * 60 * 1000) > 1) {
-    return parseInt(date / (24 * 60 * 60 * 1000)) + ' ' + '天前'
-  } else if (date / (60 * 60 * 1000) > 1) {
-    return parseInt(date / (60 * 60 * 1000)) + ' ' + '小时前'
+  let date = new Date()
+  let [currentYear, currentMouth, currentDay, currentHour, currentMinutes] = [date.getFullYear(), date.getMonth(), date.getDay(), date.getHours(), date.getMinutes()]
+  let getDate = new Date(Date.parse(value))
+  let [getDateYear, getDateMouth, getDateDay, getDateHour, getDateMinutes] = [getDate.getFullYear(), getDate.getMonth(), getDate.getDay(), getDate.getHours(), getDate.getMinutes()]
+  if ((currentYear - getDateYear) >= 1) {
+    return (currentYear - getDateYear) + ' ' + '年前'
+  } else if ((currentMouth - getDateMouth) >= 1) {
+    return (currentMouth - getDateMouth) + ' ' + '个月前'
+  } else if ((currentDay - getDateDay) >= 1) {
+    return (currentDay - getDateDay) + ' ' + '天前'
+  } else if ((currentHour - getDateHour) >= 1) {
+    return (currentHour - getDateHour) + ' ' + '小时前'
   } else {
-    if (date / (60 * 1000) > 1) {
-      return parseInt(date / (60 * 1000)) + ' ' + '分钟前'
+    if ((currentMinutes - getDateMinutes) >= 1) {
+      return (currentMinutes - getDateMinutes) + ' ' + '分钟前'
     } else {
       return '刚刚'
     }

@@ -9,27 +9,27 @@
           </vheadertitle>
           <section class="setting_box" id="setting_box">
             <div class="user_name_box comment_style">
-              <span class="user_name">用户名</span><input type="text"  readonly="true" class="text_user_name" v-model="userName">
+              <label class="user_name" for="userName">用户名</label><input type="text"  readonly="true" class="text_user_name" v-model="userName" id="userName">
             </div>
             <div class="user_email_box comment_style">
-              <span class="user_email">电子邮件</span><input type="text" value='624793604@qq.com' readonly="true" class="text_user_email">
+              <label class="user_email" for="email">电子邮件</label><input type="text" value='624793604@qq.com' readonly="true" class="text_user_email" id="email">
             </div>
             <div class="user_website_box comment_style">
-              <span class="user_website">个人网站</span><input type="text">
+              <label class="user_website" for="text">个人网站</label><input type="text" id="text">
               <p>同时决定了Gravatar头像</p>
             </div>
             <div class="user_address_box comment_style">
-              <span class="user_address">所在地点</span><input type="text">
+              <label class="user_address" for="add">所在地点</label><input type="text" id="add">
             </div>
             <div class="user_weibo_box comment_style">
-              <span class="user_weibo">微博</span><input type="text" placeholder="e.g. http://weibo.com/cnodejs">
+              <label class="user_weibo" for="weibo">微博</label><input type="text" placeholder="e.g. http://weibo.com/cnodejs" id="weibo">
             </div>
             <div class="user_github_box comment_style">
-              <span class="user_github">GitHub</span><input type="text" value="@15826954460">
+              <label class="user_github">GitHub</label><input type="text" value="@15826954460">
               <p>通过 GitHub 登陆CNode 来修改此处</p>
             </div>
             <div class="user_signature_box comment_style">
-              <span class="user_signature">个性签名</span><textarea name="" id="" cols="30" rows="3"></textarea>
+              <label class="user_signature">个性签名</label><textarea name="" id="" cols="30" rows="3"></textarea>
             </div>
             <span class="save_update comment_update">保存设置</span>
           </section>
@@ -39,10 +39,10 @@
           <p class="title">更改密码</p>
           <div class="setting_box" id="setting_wrapper_setting_box">
             <div class="negative_secret_box comment_style">
-              <span class="negative_secret">当前密码</span><input type="password" v-model="negativeSecret">
+              <label class="negative_secret">当前密码</label><input type="password" v-model="negativeSecret">
             </div>
             <div class="new_secret_box comment_style">
-              <span class="new_secret">新密码</span><input type="password" v-model="newSecrt">
+              <label class="new_secret">新密码</label><input type="password" v-model="newSecrt">
             </div>
             <span class="update_secret comment_update" @click="updateSecret">更改密码</span>
           </div>

@@ -200,7 +200,7 @@ img {
   line-height: 30px;
   margin-bottom: 15px;
 }
-.setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .setting_box .comment_style span {
+.setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .setting_box .comment_style label {
   font-size: 14px;
   display: block;
   margin-right: 20px;
@@ -246,21 +246,21 @@ img {
   padding: 10px;
   background: #fff;
 }
-.setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .erweima_box span,
+.setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .erweima_box label,
 .setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .erweima_box p {
   font-size: 14px;
   color: #333;
   line-height: 30px;
 }
-.setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .erweima_box span {
+.setting_wrapper .setting_wrapper_content .setting_wrapper_content_left .setting_wrapper_comment .erweima_box label {
   display: inline-block;
 }
 .setting_wrapper .setting_wrapper_content .setting_wrapper_content_right {
   width: 290px;
 }
 @media screen and (min-width: 981px) {
-  #setting_box .comment_style span,
-  #setting_wrapper_setting_box .comment_style span {
+  #setting_box .comment_style label,
+  #setting_wrapper_setting_box .comment_style label {
     text-align: right;
     display: inline-block;
     width: 160px;
