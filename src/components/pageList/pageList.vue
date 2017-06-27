@@ -7,7 +7,6 @@
           :class="{currentIndex: index === pageIndex}"
           v-show="pageVariable === 0 ? index < showPageNum : pageVariable === 1 ? index > showPageNum : index < (pageIndex + 3) && index > (pageIndex - 3)"
           @click="goToCurrentIndex(index)">{{item}}
-
       </li>
       <li v-show="rightEllipsis && pageIndex < (totalPage - 2)">...</li>
       <li @click="finallyControl()">>></li>
@@ -47,7 +46,7 @@
           this.$store.commit('setTotalPage', 211)
           this.$store.commit('setPage', (this.totalPage - 1))
           this.$store.commit('setShowPageNum', (this.totalPage - 4))
-        } else if (tab === 'all') {
+        } else if (tab === 'all' || tab === null) {
           this.$store.commit('setTotalPage', 537)
           this.$store.commit('setPage', (this.totalPage - 1))
           this.$store.commit('setShowPageNum', (this.totalPage - 4))
