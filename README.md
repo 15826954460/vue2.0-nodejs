@@ -45,44 +45,41 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 - [x] accesstaken登陆（第三方登陆）  -- 完成
 
 ### 目录结构（布局）
-、、、
 
-.
-|--- build                                          // webpack配置文件
-|--- config                                         // 项目打包路径
-|--- src                                            // 资源文件
-      |-- comment                                   // 公共样式文件
-             |-- comment.less                       // 全局共共样式
-             |-- reset.less                         // 初始化样式
-             |-- commentMedia.less                  // 重用的媒体查询样式
-      |-- components                                // 公共组件
-             |-- aside                              // 侧边栏组件
-             |-- header                             // 头部组件
-             |-- headerTitle                        // 头部标题组件
-             |-- message                            // 右边广告信息组件
-             |-- pageList                           // 分页码组件
-      |-- page
-             |-- accessTaken                        // accesstaken登陆页面
-             |-- createTopic                        // 新建主题页面
-             |-- index                              // 主题信息首页
-             |-- mymessage                          // 消息通知页面
-             |-- setting                            // 密码重置页面
-             |-- signin                             // 登陆页面
-             |-- topicDetail                        // 主题详情页面
-             |-- updateTopic                        // 修改主题页面
-             |-- user                               // 用户信息详情
-      |-- router
-             |-- index.js                           // 路由配置
-      |-- store                                     // vuex状态管理
-             |-- getters.js                         // 配置getters
-             |-- index.js                           // 引用vuex
-             |-- mutations.js                       // 配置mutations
-      |--- App.vue                                  // 页面入口文件
-      |--- main.js                                  // 程序入口文件，加载各种插件
-|--- static
-      |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
-.
-、、、
+> |--- build                                          // webpack配置文件
+> |--- config                                         // 项目打包路径
+> |--- src                                            // 资源文件
+>       |-- comment                                   // 公共样式文件
+>              |-- comment.less                       // 全局共共样式
+>              |-- reset.less                         // 初始化样式
+>              |-- commentMedia.less                  // 重用的媒体查询样式
+>       |-- components                                // 公共组件
+>              |-- aside                              // 侧边栏组件
+>              |-- header                             // 头部组件
+>              |-- headerTitle                        // 头部标题组件
+>              |-- message                            // 右边广告信息组件
+>              |-- pageList                           // 分页码组件
+>       |-- page
+>              |-- accessTaken                        // accesstaken登陆页面
+>              |-- createTopic                        // 新建主题页面
+>              |-- index                              // 主题信息首页
+>              |-- mymessage                          // 消息通知页面
+>              |-- setting                            // 密码重置页面
+>              |-- signin                             // 登陆页面
+>              |-- topicDetail                        // 主题详情页面
+>              |-- updateTopic                        // 修改主题页面
+>              |-- user                               // 用户信息详情
+>       |-- router
+>              |-- index.js                           // 路由配置
+>       |-- store                                     // vuex状态管理
+>              |-- getters.js                         // 配置getters
+>              |-- index.js                           // 引用vuex
+>              |-- mutations.js                       // 配置mutations
+>       |--- App.vue                                  // 页面入口文件
+>       |--- main.js                                  // 程序入口文件，加载各种插件
+> |--- static
+>       |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
+
 ## Build Setup
 
 ``` bash

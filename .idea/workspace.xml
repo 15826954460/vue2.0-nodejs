@@ -46,8 +46,8 @@
           <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="472">
-                  <caret line="84" column="3" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+                <state relative-caret-position="784">
+                  <caret line="80" column="2" lean-forward="false" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
@@ -140,8 +140,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="599" />
-    <option name="y" value="37" />
+    <option name="x" value="605" />
+    <option name="y" value="3" />
     <option name="width" value="2564" />
     <option name="height" value="1416" />
   </component>
@@ -317,7 +317,7 @@
       <workItem from="1498547333075" duration="310000" />
       <workItem from="1498547880511" duration="12154000" />
       <workItem from="1498614927991" duration="2804000" />
-      <workItem from="1498617839525" duration="499000" />
+      <workItem from="1498617839525" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="初始化的一些配置文件">
       <created>1498323388008</created>
@@ -473,11 +473,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498618237549</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="markdown文档编辑完毕">
+      <created>1498618340443</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1498618340443</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30123000" />
+    <option name="totallyTimeSpent" value="30338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,7 +496,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="599" y="37" width="2564" height="1416" extended-state="0" />
+    <frame x="605" y="3" width="2564" height="1416" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09184481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -730,8 +737,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="84" column="3" lean-forward="false" selection-start-line="84" selection-start-column="3" selection-end-line="84" selection-end-column="3" />
+        <state relative-caret-position="784">
+          <caret line="80" column="2" lean-forward="false" selection-start-line="80" selection-start-column="2" selection-end-line="80" selection-end-column="2" />
           <folding />
         </state>
       </provider>
