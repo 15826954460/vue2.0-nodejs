@@ -17,6 +17,9 @@
               <span class="ask" v-else-if="article.tab === 'ask'">问答</span>
               <span class="share" v-else-if="article.tab === 'share'">分享</span>
               {{article.title}}
+
+
+
             </div>
             <ul class="about_article_base_info">
               <li class="comment_style"><i class="dot"></i><span>发布于</span><span> 13天前</span></li>
@@ -65,7 +68,8 @@
                   <span class="floor" @click="goToTop(index)">{{index + 1}} 楼 <i
                     class="doc"></i>{{item.create_at | formatTime}}</span>
                   <div class="agree_wrapper">
-                    <span class="fa fa-thumbs-o-up comment_span" title="喜欢" v-show="item.ups.length>0" @click="thumbs(item.id)"></span>
+                    <span class="fa fa-thumbs-o-up comment_span" title="喜欢" v-show="item.ups.length>0"
+                          @click="thumbs(item.id)"></span>
                     <span class="fa fa-thumbs-o-up thumbs" title="喜欢" @click="thumbs(item.id)"></span>
                     <span class="agree_num " v-show="item.ups.length>0">{{item.ups.length}}</span>
                     <span class="fa fa-mail-reply comment_span" title="回复"></span>
@@ -256,19 +260,21 @@
       },
       getSelfArticle () {
         // 获取自己收藏的文章
-        let selfLoginName = JSON.parse(window.localStorage.getItem('userInfo')).userName
-        axios.get('https://cnodejs.org/api/v1/topic_collect/' + selfLoginName).then((res) => {
-          let collect = res.data.data.some((value, index, arr) => {
-            return value.id === this.id
+        if (window.localStorage.getItem('userInfo') !== null) {
+          let selfLoginName = JSON.parse(window.localStorage.getItem('userInfo')).userName
+          axios.get('https://cnodejs.org/api/v1/topic_collect/' + selfLoginName).then((res) => {
+            let collect = res.data.data.some((value, index, arr) => {
+              return value.id === this.id
+            })
+            if (collect === true) {
+              this.$store.commit('setCollect', false)
+              this.$store.commit('setNoCollect', true)
+            } else {
+              this.$store.commit('setCollect', true)
+              this.$store.commit('setNoCollect', false)
+            }
           })
-          if (collect === true) {
-            this.$store.commit('setCollect', false)
-            this.$store.commit('setNoCollect', true)
-          } else {
-            this.$store.commit('setCollect', true)
-            this.$store.commit('setNoCollect', false)
-          }
-        })
+        }
       },
       deleteArticle () { // 删除文章
         alert('官方没有提供接口，臣妾做不到啊💔')
