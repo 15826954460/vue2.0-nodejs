@@ -24,11 +24,11 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 * npm/cnpm run dev
 ### 说明
 
-> 项目可以和官网进行同步(eg: 收藏，取消收藏，评论回复，发表文章, 点赞等等)，如何您想通过该demo实现同步功能，还请你自己登陆nodejs官网获取accesstaken然后进入到accesstaken进行登陆，
+* 项目可以和官网进行同步(eg: 收藏，取消收藏，评论回复，发表文章, 点赞等等)，如何您想通过该demo实现同步功能，还请你自己登陆nodejs官网获取accesstaken然后进入到accesstaken进行登陆，
  否则您将无法体验同步官网的功能
-> 如果你觉得对您有帮助，您可以点击右上角的star支持一下，谢谢！
-> 当然你一可以follow一下，我将会在后期开源更好的项目
-> 项目还有一些不完美的地方，后续会持续进行修复更新
+* 如果你觉得对您有帮助，您可以点击右上角的star支持一下，谢谢！
+* 当然你一可以follow一下，我将会在后期开源更好的项目
+* 项目还有一些不完美的地方，后续会持续进行修复更新
 
 ### 目标功能
 - [x] 获取所有主题信息（主题首页）  -- 完成
@@ -46,39 +46,39 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 
 ### 目录结构（布局）
 
-> |--- build                                          // webpack配置文件
-> |--- config                                         // 项目打包路径
-> |--- src                                            // 资源文件
->       |-- comment                                   // 公共样式文件
->              |-- comment.less                       // 全局共共样式
->              |-- reset.less                         // 初始化样式
->              |-- commentMedia.less                  // 重用的媒体查询样式
->       |-- components                                // 公共组件
->              |-- aside                              // 侧边栏组件
->              |-- header                             // 头部组件
->              |-- headerTitle                        // 头部标题组件
->              |-- message                            // 右边广告信息组件
->              |-- pageList                           // 分页码组件
->       |-- page
->              |-- accessTaken                        // accesstaken登陆页面
->              |-- createTopic                        // 新建主题页面
->              |-- index                              // 主题信息首页
->              |-- mymessage                          // 消息通知页面
->              |-- setting                            // 密码重置页面
->              |-- signin                             // 登陆页面
->              |-- topicDetail                        // 主题详情页面
->              |-- updateTopic                        // 修改主题页面
->              |-- user                               // 用户信息详情
->       |-- router
->              |-- index.js                           // 路由配置
->       |-- store                                     // vuex状态管理
->              |-- getters.js                         // 配置getters
->              |-- index.js                           // 引用vuex
->              |-- mutations.js                       // 配置mutations
->       |--- App.vue                                  // 页面入口文件
->       |--- main.js                                  // 程序入口文件，加载各种插件
-> |--- static
->       |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
+* |--- build                                          // webpack配置文件
+* |--- config                                         // 项目打包路径
+* |--- src                                            // 资源文件
+*       |-- comment                                   // 公共样式文件
+*              |-- comment.less                       // 全局共共样式
+*              |-- reset.less                         // 初始化样式
+*              |-- commentMedia.less                  // 重用的媒体查询样式
+*       |-- components                                // 公共组件
+*              |-- aside                              // 侧边栏组件
+*              |-- header                             // 头部组件
+*              |-- headerTitle                        // 头部标题组件
+*              |-- message                            // 右边广告信息组件
+*              |-- pageList                           // 分页码组件
+*       |-- page
+*              |-- accessTaken                        // accesstaken登陆页面
+*              |-- createTopic                        // 新建主题页面
+*              |-- index                              // 主题信息首页
+*              |-- mymessage                          // 消息通知页面
+*              |-- setting                            // 密码重置页面
+*              |-- signin                             // 登陆页面
+*              |-- topicDetail                        // 主题详情页面
+*              |-- updateTopic                        // 修改主题页面
+*              |-- user                               // 用户信息详情
+*       |-- router
+*              |-- index.js                           // 路由配置
+*       |-- store                                     // vuex状态管理
+*              |-- getters.js                         // 配置getters
+*              |-- index.js                           // 引用vuex
+*              |-- mutations.js                       // 配置mutations
+*       |--- App.vue                                  // 页面入口文件
+*       |--- main.js                                  // 程序入口文件，加载各种插件
+* |--- static
+*       |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
 
 56 directories, 203 files
 ```
