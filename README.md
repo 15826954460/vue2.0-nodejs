@@ -81,8 +81,8 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
       |--- main.js                                  // 程序入口文件，加载各种插件
 |--- static
       |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
-
-
+.
+、、、
 ## Build Setup
 
 ``` bash
