@@ -49,7 +49,7 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 * |--- build                                          // webpack配置文件
 * |--- config                                         // 项目打包路径
 * |--- src                                            // 资源文件
-        |-- comment                                   // 公共样式文件
+*       |-- comment                                   // 公共样式文件
                |-- comment.less                       // 全局共共样式
                |-- reset.less                         // 初始化样式
                |-- commentMedia.less                  // 重用的媒体查询样式
@@ -78,7 +78,7 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
         |--- App.vue                                  // 页面入口文件
         |--- main.js                                  // 程序入口文件，加载各种插件
 * |--- static
-        |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
+*       |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
 
 56 directories, 203 files
 ```
