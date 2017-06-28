@@ -45,6 +45,9 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 - [x] accesstaken登陆（第三方登陆）  -- 完成
 
 ### 目录结构（布局）
+、、、
+
+.
 |--- build                                          // webpack配置文件
 |--- config                                         // 项目打包路径
 |--- src                                            // 资源文件
