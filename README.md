@@ -12,7 +12,7 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 
 ### 效果演示
 
-查看demo，请狠狠地点击这里 [http://vue2nodejsdemo.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
+查看demo，请狠狠地点击这里 [http://vue2demonodejs.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
 
 ### 项目运行
 
