@@ -69,16 +69,16 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 *              |-- topicDetail                        // 主题详情页面
 *              |-- updateTopic                        // 修改主题页面
 *              |-- user                               // 用户信息详情
-*       |-- router
-*              |-- index.js                           // 路由配置
-*       |-- store                                     // vuex状态管理
-*              |-- getters.js                         // 配置getters
-*              |-- index.js                           // 引用vuex
-*              |-- mutations.js                       // 配置mutations
-*       |--- App.vue                                  // 页面入口文件
-*       |--- main.js                                  // 程序入口文件，加载各种插件
+        |-- router
+               |-- index.js                           // 路由配置
+        |-- store                                     // vuex状态管理
+               |-- getters.js                         // 配置getters
+               |-- index.js                           // 引用vuex
+               |-- mutations.js                       // 配置mutations
+        |--- App.vue                                  // 页面入口文件
+        |--- main.js                                  // 程序入口文件，加载各种插件
 * |--- static
-*       |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
+        |-- 外部资源文件                               // 用来存放外部引用的图片、音频、视频等文件
 
 56 directories, 203 files
 ```
