@@ -27,7 +27,7 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 * npm/cnpm install
 * npm/cnpm run dev
 ### 说明
-
+* 这是一个pc端的项目，简单的做了一下移动端的适配
 * 项目可以和官网进行同步(eg: 收藏，取消收藏，评论回复，发表文章, 点赞等等)，如何您想通过该demo实现同步功能，还请你自己登陆nodejs官网获取accesstaken然后进入到accesstaken进行登陆，
  否则您将无法体验同步官网的功能
 * 如果你觉得对您有帮助，您可以点击右上角的star支持一下，谢谢！
