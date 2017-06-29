@@ -15,6 +15,8 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 
 ### 效果演示
 ![text](../master/static/img/beforelogin.gif)
+![text](../master/static/img/afterlogin.gif)
+![text](../master/static/img/pc_login.gif)
 
 ### 项目运行
 
