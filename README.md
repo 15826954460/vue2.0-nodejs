@@ -11,7 +11,9 @@ A Vue2.0 js project
 vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 
 ### demo
-查看demo，请狠狠地点击这里 [http://vue2demonodejs.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
+查看demo，请狠狠地点击这里 [http://demonodejs.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
+移动端扫码：
+<img src="./static/img/erweima.png"/>
 
 ### 效果演示
 ##### 移动端登陆前/后
