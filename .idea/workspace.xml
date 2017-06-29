@@ -23,8 +23,8 @@
           <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <state relative-caret-position="87">
+                  <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -64,11 +64,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="header.less" pinned="false" current-in-tab="true">
+          <file leaf-file-name="header.less" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/header/header.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="374">
                   <caret line="114" column="3" lean-forward="true" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://D:/githubProject/vue2-elm-master/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-4988">
+                  <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
                   <folding />
                 </state>
               </provider>
@@ -89,6 +99,7 @@
       <find>static/fonts/fontawesome</find>
       <find>favicon.ico</find>
       <find>userName</find>
+      <find>nav_list_box</find>
     </findStrings>
     <replaceStrings>
       <replace>currentMinutes</replace>
@@ -224,7 +235,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/githubProject/vue2-elm-master/README.md" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -340,7 +351,7 @@
       <workItem from="1498644267047" duration="53000" />
       <workItem from="1498644478676" duration="3362000" />
       <workItem from="1498721186452" duration="44000" />
-      <workItem from="1498721337731" duration="2792000" />
+      <workItem from="1498721337731" duration="3160000" />
     </task>
     <task id="LOCAL-00001" summary="初始化的一些配置文件">
       <created>1498323388008</created>
@@ -573,11 +584,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498725369740</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="gif图">
+      <created>1498725731639</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1498725731640</updated>
+    </task>
+    <task id="LOCAL-00035" summary="gif图">
+      <created>1498725965778</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1498725965778</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37550000" />
+    <option name="totallyTimeSpent" value="37918000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -598,7 +623,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15678628" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22386895" sideWeight="0.4940476" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22386895" sideWeight="0.4940476" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -886,10 +911,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/githubProject/vue2-elm-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4988">
+          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="87">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

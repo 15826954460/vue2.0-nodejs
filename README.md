@@ -14,8 +14,7 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 查看demo，请狠狠地点击这里 [http://vue2demonodejs.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
 
 ### 效果演示
-![text](../master/static/img/beforelogin.gif)
-![text](../master/static/img/afterlogin.gif)
+![text](../master/static/img/beforelogin.gif)(../master/static/img/afterlogin.gif)
 ![text](../master/static/img/pc_login.gif)
 
 ### 项目运行
