@@ -2,7 +2,7 @@
   <div class="header_box">
     <header class="head_nav">
       <div class="container" id="container">
-        <div class="logo_box">
+        <div class="logo_box" id="logo_box">
           <img src="//o4j806krb.qnssl.com/public/images/cnodejs_light.svg" alt="">
         </div>
         <div class="search_box" id="search_box">

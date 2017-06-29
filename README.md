@@ -10,9 +10,11 @@ A Vue2.0 js project
 
 vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 
-### 效果演示
-
+### demo
 查看demo，请狠狠地点击这里 [http://vue2demonodejs.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
+
+### 效果演示
+![text](../master/static/img/beforelogin.gif)
 
 ### 项目运行
 

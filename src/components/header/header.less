@@ -98,11 +98,6 @@
     width: 90%;
   }
 }
-@media screen and(max-width: 980px) {
-  #container {
-    //width: 90%;
-  }
-}
 @media screen and(min-width: 980px) {
   #nav_list_box {
     .rf;
@@ -111,10 +106,25 @@
 @media screen and(min-width: 440px) {
   #search_box {
     .inb;
-    top: 12px;
+    top: 15px;
   }
 }
-
+@media screen and(max-width: 439px) {
+  #search_box ,#logo_box{
+    display:none;
+  }
+  #nav_list_box{
+    ul{
+      .flex;
+      li{
+        .f12;
+        .pd;
+        flex:1;
+        .tc;
+      }
+    }
+  }
+}
 @media screen and(min-width: 1501px) {
   #content_wrapper {
     width: 1400px;

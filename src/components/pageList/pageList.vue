@@ -30,7 +30,7 @@
         this.$store.commit('setShowPageNum', 5)
         this.$store.commit('setPage', 0)
         this.$store.commit('setPageVariable', 0)
-        this.backTop()
+//        this.backTop()
       },
       finallyControl () { // 显示最后几页
         let tab = window.sessionStorage.getItem('tab')
@@ -54,7 +54,7 @@
         this.$store.commit('setLeftEllipsis', true)
         this.$store.commit('setRightEllipsis', false)
         this.$store.commit('setPageVariable', 1)
-        this.backTop()
+//        this.backTop()
       },
       goToCurrentIndex (index) { // 跳转到指定的页面
         if (index <= 2) {  // 如果当前页码小于3（下标为2）时的样式
@@ -72,7 +72,7 @@
           this.$store.commit('setRightEllipsis', true)
           this.$store.commit('setPageVariable', 2)
         }
-        this.backTop()
+//        this.backTop()
         this.$store.commit('setPage', index)
       },
       backTop () { // 返回顶部动画

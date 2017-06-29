@@ -249,7 +249,23 @@ img {
 @media screen and (min-width: 440px) {
   #search_box {
     display: inline-block;
-    top: 12px;
+    top: 15px;
+  }
+}
+@media screen and (max-width: 439px) {
+  #search_box,
+  #logo_box {
+    display: none;
+  }
+  #nav_list_box ul {
+    display: flex;
+    display: -webkit-flex;
+  }
+  #nav_list_box ul li {
+    font-size: 12px;
+    padding: 0px;
+    flex: 1;
+    text-align: center;
   }
 }
 @media screen and (min-width: 1501px) {
