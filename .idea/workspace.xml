@@ -24,7 +24,7 @@
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="432">
-                  <caret line="16" column="113" lean-forward="false" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
+                  <caret line="17" column="131" lean-forward="false" selection-start-line="17" selection-start-column="131" selection-end-line="17" selection-end-column="131" />
                   <folding />
                 </state>
               </provider>
@@ -348,7 +348,7 @@
       <workItem from="1498644267047" duration="53000" />
       <workItem from="1498644478676" duration="3362000" />
       <workItem from="1498721186452" duration="44000" />
-      <workItem from="1498721337731" duration="3845000" />
+      <workItem from="1498721337731" duration="4055000" />
     </task>
     <task id="LOCAL-00001" summary="初始化的一些配置文件">
       <created>1498323388008</created>
@@ -623,11 +623,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498726723823</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="gif图">
+      <created>1498726784500</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1498726784500</updated>
+    </task>
+    <task id="LOCAL-00041" summary="gif图">
+      <created>1498726939280</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1498726939280</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38603000" />
+    <option name="totallyTimeSpent" value="38813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,7 +966,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="16" column="113" lean-forward="false" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
+          <caret line="17" column="131" lean-forward="false" selection-start-line="17" selection-start-column="131" selection-end-line="17" selection-end-column="131" />
           <folding />
         </state>
       </provider>

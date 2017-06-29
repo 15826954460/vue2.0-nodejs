@@ -17,7 +17,7 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 移动端的适配，登陆前/后
 <img src="./static/img/beforelogin.gif" width="400" height="700"/><img src="./static/img/afterlogin.gif" width="400" height="700"/>
 pc端
-<img src="./static/img/pc_login.gif" width="400" height="700"/>
+<img src="./static/img/pc_login.gif"/>
 
 
 ### 项目运行
