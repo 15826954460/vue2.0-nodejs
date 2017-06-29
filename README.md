@@ -14,9 +14,11 @@ vue2.0 + vuex + vue-router + axios + webpack + es6 + less + flex + svg
 查看demo，请狠狠地点击这里 [http://vue2demonodejs.applinzi.com] ，建议较新的Chrome,Fix,O....等浏览器进行浏览
 
 ### 效果演示
-移动端的适配，登陆前/后
-<img src="./static/img/beforelogin.gif" width="400" height="700"/><img src="./static/img/afterlogin.gif" width="400" height="700"/>
-pc端
+##### 移动端的适配，登陆前
+<img src="./static/img/beforelogin.gif"/>
+##### 移动端的适配，登陆后
+<img src="./static/img/afterlogin.gif"/>
+##### pc端
 <img src="./static/img/pc_login.gif"/>
 
 
